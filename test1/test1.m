@@ -18,6 +18,7 @@ costM1 = costFunctionN(tstx_M1, tsty, [t_M1(end,1);t_M1(end,2);t_M1(end,3)], 3);
 costM2 = costFunctionN(tstx_M2, tsty, [t_M2(end,1);t_M2(end,2);t_M2(end,3)], 3);
 
 plot(J_M1,'rx');
+figure;
 plot(J_M2,'rx');
 
-printf("Model 1 cost: %f\nModel 2 cost: %f",costM1,costM2);
+printf("Model 1 cost: %f\nModel 2 cost: %f\n",costM1,costM2);
